@@ -1,0 +1,17 @@
+style {
+  background-color: #f4f4f4.;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
