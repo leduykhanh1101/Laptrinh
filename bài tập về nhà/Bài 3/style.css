@@ -26,3 +26,10 @@ footer {
   color: white;
   text-align: center;
 }
+nav {
+  display: inline-block;
+}
+nav:hover {
+  background-color: forestgreen;
+  color: blueviolet;
+}
