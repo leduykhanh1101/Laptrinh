@@ -1,0 +1,95 @@
+.header {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+  border-bottom: 1px solid rgb(85, 82, 82);
+}
+.logo image {
+  height: 50px;
+  width: 100px;
+  margin-right: 14px;
+}
+.menu {
+  display: flex;
+  gap: 35px;
+  align-items: center; /* Đảm bảo các mục căn giữa theo chiều dọc */
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.menu a:hover {
+  color: crimson;
+}
+.button {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.button a {
+  text-decoration: none;
+}
+.Login {
+  color: green;
+  background-color: white;
+  border: 20px solid white;
+}
+.Login:hover {
+  color: brown;
+}
+.signup {
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 20%;
+  padding: 20px;
+}
+.signup:hover {
+  color: brown;
+  border-radius: 20;
+}
+.container_mid {
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7rem 4rem;
+  gap: 12px;
+  border: 1px solid rgb(122, 119, 119);
+}
+.container_mid_left {
+  flex: 1;
+}
+.blackword {
+  font-size: 50px;
+  opacity: 70%;
+}
+.greenword {
+  font-size: 50px;
+  color: green;
+}
+.bland {
+  font-weight: 300;
+}
+.Register a {
+  color: white;
+  text-decoration: none;
+  background-color: green;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+.container_mid_right image {
+  flex: 1;
+}
