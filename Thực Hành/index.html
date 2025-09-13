@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nexcent</title>
     <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="container_left">
+      <div class="grid gap-[32px] grid-cols-12">
+        <div class="col-span-2">
           <div class="logo">
             <a href=""
               ><img
@@ -17,7 +19,9 @@
                 alt=""
             /></a>
           </div>
-          <div class="menu">
+          
+        </div>
+        <div class="col-span-8 flex space-x-[50px]">
             <a href="#">Home</a>
             <a href="#">Service</a>
             <a href="#">Feature</a>
@@ -25,8 +29,7 @@
             <a href="#">Testimonial</a>
             <a href="#">FAQ</a>
           </div>
-        </div>
-        <div class="container_right">
+        <div class="col-span-2">
           <div class="button">
             <a class="Login" href="#">Login</a>
             <a class="signup" href="#">Sign Up</a>
@@ -34,9 +37,9 @@
         </div>
       </div>
     </header>
-    <section>
-      <div class="container_mid">
-        <div class="container_mid_left">
+    <section class="px-[50px] bg-[#F5F7FA]">
+      <div class="grid gap-[32px] grid-cols-12 py-[162px]">
+        <div class="col-span-7">
           <h1 class="blackword">Lesson and insights</h1>
           <h1 class="greenword">from 8 years</h1>
           <h3 class="bland">
@@ -44,7 +47,7 @@
           </h3>
           <h2 class="Register"><a href="#">Register</a></h2>
         </div>
-        <div class="container_mid_right">
+        <div class="col-span-5">
           <img
             src="https://raknexcent.netlify.app/assets/hero-a24db6d9.svg"
             alt=""

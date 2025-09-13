@@ -9,6 +9,9 @@
   padding: 30px 70px;
   border-bottom: 1px solid rgb(85, 82, 82);
 }
+.container_left{
+  display: flex;
+}
 .logo image {
   height: 50px;
   width: 100px;
@@ -17,7 +20,8 @@
 .menu {
   display: flex;
   gap: 35px;
-  align-items: center; /* Đảm bảo các mục căn giữa theo chiều dọc */
+  align-items: center;
+  padding-left: 50px;
 }
 
 .menu a {
