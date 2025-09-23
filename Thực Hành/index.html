@@ -6,23 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexcent</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-  <script>
-    tailwind.config = {
-      theme: {
-        container: {
-          center: true,
-          padding: {
-            DEFAULT: '1rem',
-            md: '2rem',
-            lg: '2rem',
-            xl: '3rem',
-            '2xl': '6rem',
-          },
-        },
-      },
-    }
-  </script>
 </head>
 
 <body>
@@ -34,14 +17,17 @@
           <a href=""><img src="https://raknexcent.netlify.app/assets/logo-5ef0cf82.svg" alt="" /></a>
         </div>
       </div>
-      <div class="lg:col-span-8 md:hidden hidden flex space-x-[50px] py-[30px] justify-center">
-        <a href="#">Home</a>
-        <a href="#">Service</a>
-        <a href="#">Feature</a>
-        <a href="#">Product</a>
-        <a href="#">Testimonial</a>
-        <a href="#">FAQ</a>
+      <div class="hidden md:flex lg:col-span-8 flex justify-center">
+        <div class="flex space-x-[50px] py-[30px] justify-center">
+          <a href="#">Home</a>
+          <a href="#">Service</a>
+          <a href="#">Feature</a>
+          <a href="#">Product</a>
+          <a href="#">Testimonial</a>
+          <a href="#">FAQ</a>
+        </div>
       </div>
+
       <div class="lg:col-span-2 md:col-span-6  col-span-12  py-[22px] flex">
         <div class="space-x-[14px]">
           <a class="bg-[#F5F7FA] text-[#4CAF4F] rounded-lg px-[15px] py-[10px]" href="#">Login</a>
