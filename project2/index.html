@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Panto</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  
+
 </head>
 
 <body>
   <header>
     <div class="h-screen w-full bg-[url(./image/backround.jpg)] bg-cover bg-center bg-no-repeat space-y-5">
-      <div class="grid grid-cols-12 py-[20px] md:py-40px px-[32px]">
+      <div class="grid grid-cols-12 py-[20px] md:py-40px px-[32px] fixed left-0 right-0">
         <div class=" col-span-6 md:col-span-1">
           <a href="#"><svg width="76" height="21" viewBox="0 0 76 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -21,7 +21,7 @@
             </svg>
           </a>
         </div>
-        <div class=" md:col-span-10 text-[#FFFFFF] font-[Gilroy-Medium] md:flex justify-center space-x-16 hidden">
+        <div class=" md:col-span-10 text-[#FFFFFF] font-[Gilroy-Medium] md:flex justify-center space-x-16 ">
           <div class="relative">
             <a class="flex justify-between items-center space-x-3 " href="#">
 
@@ -64,7 +64,8 @@
     </div>
   </header>
   <section>
-    <div class="bg-white grid grid-cols-1 md:grid-cols-12 md:px-[80px] px-[32px] py-[15px] md:py-[130px] space-y-[20px]">
+    <div
+      class="bg-white grid grid-cols-1 md:grid-cols-12 md:px-[80px] px-[32px] py-[15px] md:py-[130px] space-y-[20px]">
       <div class="col-span-full md:col-span-3 text-[40px] font-Gilroy-Bold">
         <h1>
           Why Choosing <br />
@@ -483,7 +484,7 @@
       <div class="col-span-full md:col-span-5 md:px-[0px] px-[32px]">
         <img src="./image/chair.jpg" alt="" class="w-[629px] h-[445px]">
       </div>
-      <div class="col-span-full md:col-span-7 md:pl-[141px] grid gap-y-[14px] md:px[0px] px-[32px]">
+      <div class="col-span-full md:col-span-7 md:pl-[141px] space-y-[20px] md:px[0px] px-[32px]">
         <p class="text-[#E58411] font-Gilroy-SemiBold text-[18px]">EXPERIENCES</p>
         <p class="text-[42px] text-[#1E1E1E]">We Provide You <br> The Best Experience</p>
         <p>You don’t have to worry about the result because all of these <br> interiors are made by people who are
@@ -498,7 +499,7 @@
   <section>
     <div class=" grid grid-cols-12 md:px-[80px] grid gap-x-[30px] gap-y-[20px] px-[32px] ">
       <div class="col-span-full md:col-span-6 space-y-[20px] flex items-center">
-        <div>
+        <div class="space-y-[20px]">
           <p class="text-[#E58411] font-Gilroy-SemiBold text-[18px]">Materials</p>
           <p class="text-[42px] text-[#1E1E1E]">Very serious materials for making furniture
           </p>
@@ -528,7 +529,7 @@
         <p class="text-[#E58411] text-[18px] font-Gilroy-SemiBold">Testimonials</p>
         <h1 class="text-[42px] font-Gilroy-Bold">Our Client Reviews</h1>
       </div>
-      <div class="space-y-5 px-32px md:pt-[60px] grid grid-cols-1 md:grid-cols-12">
+      <div class="relative space-y-5 px-32px md:pt-[60px] grid grid-cols-1 md:grid-cols-12">
         <div class="col-span-full md:col-span-4">
           <div class="relative flex justify-center">
             <img src="./image/1.jpg" alt="" class="md:w-[370px] md:h-[506px] rounded-[19px]">
@@ -648,9 +649,30 @@
             </div>
           </div>
         </div>
+        <!-- button left -->
+        <div class="absolute left-0 top-1/2 transform -translate-y-[1/2]">
+          <div class="bg-white rounded-full p-[16px] border border-black">
+            <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19.6958 7.43548H2.48568M2.48568 7.43548C2.48568 7.43548 7.36397 4.22725 8.35524 1.56592M2.48568 7.43548C2.48568 7.43548 6.79826 10.45 8.35524 13.305"
+                stroke="#1E1E1E" style="stroke:#1E1E1E;stroke:color(display-p3 0.1176 0.1176 0.1176);stroke-opacity:1;"
+                stroke-width="2.17391" stroke-linecap="square" />
+            </svg>
+          </div>
+        </div>
+        <!-- button right -->
+        <div class="absolute right-0 top-1/2 transform -translate-y-[1/2]">
+          <div class="bg-white rounded-full p-[16px] border border-black">
+            <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.30417 7.43548H18.5143M18.5143 7.43548C18.5143 7.43548 13.636 4.22725 12.6447 1.56592M18.5143 7.43548C18.5143 7.43548 14.2017 10.45 12.6447 13.305"
+                stroke="#1E1E1E" style="stroke:#1E1E1E;stroke:color(display-p3 0.1176 0.1176 0.1176);stroke-opacity:1;"
+                stroke-width="2.17391" stroke-linecap="square" />
+            </svg>
+
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
   </section>
   <footer>
     <div class="md:px-[188px] md:py-[118px] px-[32px] py-[20px] bg-[#F7F7F7]">
